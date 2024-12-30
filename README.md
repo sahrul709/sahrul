@@ -20,7 +20,7 @@ Instalasi
 
 Clone repositori
     bash
-    git clone https:
+    git clone https://github.com/sahrul709/sahrul
     
 
 Penggunaan
