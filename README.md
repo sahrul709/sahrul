@@ -20,11 +20,7 @@ Instalasi
 
 Clone repositori
     bash
-    git clone https://github.com/akmalgoldi/Learning-Activity-Support.git
-    
-    Masuk ke direktori proyek:
-    bash
-    aktivitas-belajar
+    git clone https:
     
 
 Penggunaan
