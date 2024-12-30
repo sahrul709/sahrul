@@ -1,0 +1,78 @@
+body {
+    background-color: #48d8eb7b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gradient-header {
+    background: linear-gradient(to right, #4e5bff, #c654f0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(54, 53, 53, 0.1);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-custom {
+    background: linear-gradient(to right, #00c5f6, #0688df);
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(62, 71, 197, 0.4);
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background: #e63939;
+}
+
+.complete-btn {
+    background: #45a049;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.complete-btn:hover {
+    background: #45a049;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
